@@ -1,2 +1,2 @@
 # My Portfolio
- My personal portfolio
+ My personal portfolio built using Next.js and Tailwind css
