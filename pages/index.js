@@ -23,7 +23,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl"></h1>
+            <h1 className="font-burtons text-xl">DEVELOPED BY Gimhani</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -52,7 +52,8 @@ export default function Home() {
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              IT undergradate at SLIIT
+            Dedicated young undergraduate currently studying a BSc Hons Information Technology degree. 
+            My purpose is to expand my knowledge and skills for the ever changing IT industry
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               
@@ -66,6 +67,23 @@ export default function Home() {
               <AiFillGithub />
             </a>
             </div>
+
+<div  className="text-2xl dark:text-white-400">
+           <h1>Projects</h1>
+
+           <li> Textile and garment management website</li>
+           <li>   Medicine and drug ordering system </li> 
+           <li>  Born To Battle dancing competition platform</li>
+           <li> Running Boy - 2D game development</li>
+           <li>  Brick game - mobile app</li>
+           <li> To Do mobile app</li>
+           </div>
+
+{/* <p>           Contact me 
+</p>
+
+Mobile - 078 - 2091517 
+Email - gimhanii2002@gmail.com  */}
            
           </div>
         </section>
