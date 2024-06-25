@@ -13,4 +13,7 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  // Ensure this is present if you are exporting a static site
+  trailingSlash: true,
 };
+
