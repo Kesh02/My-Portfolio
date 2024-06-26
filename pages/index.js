@@ -63,7 +63,7 @@ const downloadResume = () => {
           </nav>
           <div className="text-center p-10 py-10">
           <h3 className="text-5xl py-2 text-blue-600 font-medium dark:text-teal-400 md:text-6xl">
-            Hello, I'm
+            Hello, I am
           </h3>
             <h2 className="text-5xl py-2 text-blue-600 font-medium dark:text-teal-400 md:text-6xl">
               KANISHKA GIMHANI
@@ -72,7 +72,8 @@ const downloadResume = () => {
               Software developer and designer
             </h3>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={deved} layout="fill" objectFit="cover" alt="myimage" />
+
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Dedicated young undergraduate currently studying a BSc Hons Information Technology degree. 
