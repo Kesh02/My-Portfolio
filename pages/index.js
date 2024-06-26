@@ -13,6 +13,17 @@ import Image from "next/image";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href = '/K.T.K.Gimhani CV.pdf';
+  link.download = 'K.T.K.Gimhani CV.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  
+};
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -34,9 +45,9 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  onClick={downloadResume}
                 >
-                  Resume
+                  Download Resume
                 </a>
               </li>
             </ul>
@@ -69,22 +80,23 @@ export default function Home() {
             </div>
 
 <div  className="text-2xl dark:text-white-400">
-           <h1>Projects</h1>
-
-           <li> Textile and garment management website</li>
-           <li>   Medicine and drug ordering system </li> 
-           <li>  Born To Battle dancing competition platform</li>
-           <li> Running Boy - 2D game development</li>
-           <li>  Brick game - mobile app</li>
-           <li> To Do mobile app</li>
+<h1 className="text-3xl font-semibold dark:text-white"><u>Projects</u></h1>
+              <ul className="list-disc list-inside mt-4 space-y-2 dark:text-white">
+                <li>Textile and garment management website</li>
+                <li>Medicine and drug ordering system</li>
+                <li>Born To Battle dancing competition platform</li>
+                <li>Running Boy - 2D game development</li>
+                <li>Brick game - mobile app</li>
+                <li>To Do mobile app</li>
+              </ul>
            </div>
 
-{/* <p>           Contact me 
-</p>
+           <h1 className="text-3xl font-semibold dark:text-white"><u>Contact me</u></h1>
 
+<div className="text-xl dark:text-white">
 Mobile - 078 - 2091517 
-Email - gimhanii2002@gmail.com  */}
-           
+Email - gimhanii2002@gmail.com 
+</div>        
           </div>
         </section>
       
