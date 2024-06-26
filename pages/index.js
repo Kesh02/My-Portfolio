@@ -15,8 +15,8 @@ export default function Home() {
 
 const downloadResume = () => {
   const link = document.createElement('a');
-  link.href = '/K.T.K.Gimhani CV.pdf';
-  link.download = 'K.T.K.Gimhani CV.pdf';
+  link.href = '/K.T.K.Gimhani Resume.pdf';
+  link.download = 'K.T.K.Gimhani Resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -72,8 +72,7 @@ const downloadResume = () => {
               Software developer and designer
             </h3>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" alt="myimage" />
-
+              <Image src={deved} layout="fill" objectFit="cover" alt="my image"/>
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Dedicated young undergraduate currently studying a BSc Hons Information Technology degree. 
