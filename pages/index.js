@@ -69,7 +69,7 @@ const downloadResume = () => {
               KANISHKA GIMHANI
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Software developer and designer
+              Software developer and undergraduate
             </h3>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" alt="my image"/>
