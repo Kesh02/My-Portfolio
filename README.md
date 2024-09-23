@@ -5,4 +5,4 @@ hosted at : https://kesh02.github.io/My-Portfolio/
 
 Run using : npm run dev
 
-<img src="https://github.com/Kesh02/My-Portfolio/blob/main/kesh02.github.io_My-Portfolio_.png">
+<img src="https://github.com/Kesh02/My-Portfolio/blob/main/port1.png">
